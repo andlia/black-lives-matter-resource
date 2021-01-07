@@ -12,6 +12,7 @@ html, body {
 }
 
 .background {
+    opacity: 0.6;
 	pointer-events: none;
 	z-index: 9;
 	position: fixed;
@@ -19,6 +20,7 @@ html, body {
 	height: 100vh;
 	top: 0;
 	left: 0;
+    background-color: #fff;
 	background-size: cover;
     backdrop-filter: blur(25px);
 }
@@ -234,7 +236,7 @@ p {
 .embed-overlay {
 	display: none;
 	position: fixed;
-	background-color: #404040;
+	background-color: #fff;
 	width: 100vw;
 	height: 100vh;
 	top: 0;
@@ -243,6 +245,7 @@ p {
   padding-top: 0;
 	overflow-y: scroll;
 	-webkit-overflow-scrolling: touch;
+    z-index: 999999;
 }
 
 .embed-overlay-is-active .embed-overlay {
@@ -256,7 +259,7 @@ p {
 	display: block;
 	width: auto;
 	font-size: 1rem;
-	color: #fff;
+	color: #000;
 	background-color: transparent;
 	border: none;
 	-webkit-appearance: none;
@@ -304,7 +307,7 @@ code {
 	margin-top: 0.5em;
 	font-size: 0.75rem;
 	text-align: left;
-	color: #fff;
+	color: #000;
 	padding: 0;
 }
 
