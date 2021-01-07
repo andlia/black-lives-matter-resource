@@ -5,8 +5,8 @@ html, body {
 	height: 100vh;
 	padding: 12px;
 	font-size: 12pt;
-	background-color: none;
-	color: #000;
+	background-color: #404040;
+	color: #fff;
 	font-weight: 300;
 	overflow: hidden;
 }
@@ -20,7 +20,7 @@ html, body {
 	height: 100vh;
 	top: 0;
 	left: 0;
-	background-image: none;
+	background-image: url('assets/background.gif');
 	background-size: cover;
 }
 
@@ -186,7 +186,7 @@ p {
 
 .action-point__link,
 .action-point__link:focus {
-	color: #000;
+	color: #fff;
 	text-decoration: none;
 	display: inline-block;
 }
