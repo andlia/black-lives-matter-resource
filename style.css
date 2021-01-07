@@ -12,7 +12,7 @@ html, body {
 }
 
 .background {
-    opacity: 0.6;
+    opacity: 0.8;
 	pointer-events: none;
 	z-index: 9;
 	position: fixed;
@@ -22,6 +22,7 @@ html, body {
 	left: 0;
     background-color: #fff;
 	background-size: cover;
+    -webkit-backdrop-filter: blur(25px);
     backdrop-filter: blur(25px);
 }
 
