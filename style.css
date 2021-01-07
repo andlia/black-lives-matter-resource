@@ -12,7 +12,6 @@ html, body {
 }
 
 .background {
-	opacity: 0.2;
 	pointer-events: none;
 	z-index: 9999999;
 	position: fixed;
@@ -20,8 +19,8 @@ html, body {
 	height: 100vh;
 	top: 0;
 	left: 0;
-	background-image: none;
 	background-size: cover;
+    backdrop-filter: blur(25px);
 }
 
 ::-webkit-scrollbar {
@@ -97,6 +96,7 @@ p {
 	padding: 12px;
 	width: 100vw;
 	height: 100vh;
+    z-index: 999;
 }
 
 .black-lives-matter {
@@ -114,6 +114,7 @@ p {
 		padding-bottom: 0;
 	}
 	.black-lives-matter {
+        display: none;
 		background-repeat: repeat-y;
 		background-size: contain;
 	}
@@ -129,6 +130,7 @@ p {
 	right: 0;
 	top: 0;
 	padding: 12px;
+    z-index: 9999;
 }
 
 .content__wrapper__inner {
